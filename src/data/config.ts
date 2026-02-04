@@ -36,9 +36,9 @@ const config = {
   },
   social: {
     twitter: "https://x.com/",
-    linkedin: "https://",
-    instagram: "https://",
-    facebook: "https://",
+    linkedin: "https://www.linkedin.com/in/jasonxgomes/",
+    instagram:"https://www.instagram.com/jasonxgomes/?hl=en",
+    facebook: "https://www.facebook.com/jasonxgomes/",
     github: "https://github.com/jasonxgomes",
   },
 };
