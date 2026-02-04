@@ -5,6 +5,7 @@ import React, { useRef } from "react";
 import { Button } from "../ui/button";
 import { SiGithub, SiInstagram, SiLinkedin, SiX } from "react-icons/si";
 import { config } from "@/data/config";
+import { isValidExternalUrl } from "@/lib/utils";
 import Link from "next/link";
 
 const BUTTONS = [
@@ -31,12 +32,13 @@ const BUTTONS = [
 ];
 
 const SocialMediaButtons = () => {
+  const validButtons = BUTTONS.filter((button) => isValidExternalUrl(button.href));
   const ref = useRef<HTMLDivElement>(null);
   const show = useInView(ref, { once: true });
   return (
     <div ref={ref} className="z-10">
       {show &&
-        BUTTONS.map((button) => (
+        validButtons.map((button) => (
           <Link href={button.href} key={button.name} target="_blank">
             <Button variant={"ghost"}>{button.icon}</Button>
           </Link>
