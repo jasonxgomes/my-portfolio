@@ -25,7 +25,7 @@ const config = {
   ],
   author: "Jason Gomes",
   email: "business.jasongomes@gmail.com",
-  site: "my-portfolio-eight-plum-82.vercel.app",
+  site: "https://my-portfolio-eight-plum-82.vercel.app/",
 
   // for github stars button
   githubUsername: "jasonxgomes",
