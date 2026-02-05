@@ -1,5 +1,5 @@
 const config = {
-  title: "Jason Gomes | Full-Student Software Developer",
+  title: "Jason Gomes | Computer Science Student/CCSU",
   description: {
     long: "Explore the portfolio of Jason, a full-Student Software developer and creative technologist specializing in interactive web experiences, 3D animations, and innovative projects. Discover my latest work, including Coding Ducks, The Booking Desk, Ghostchat, and more. Let's build something amazing together!",
     short:
